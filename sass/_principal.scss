@@ -9,13 +9,11 @@
     }
     &__bg__transparent{
         background-color: transparent;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        @include espacios;
     }
     &__subtitulo{
         color: $blanco;
-        font-size: 20px;
-        font-weight: 300;
+        @include peso(300, 20px);
         padding-bottom: 30px;
     }
     &__calltoaction{
@@ -29,7 +27,7 @@
         }
     }
     &__btn2__color{
-        background-color: #a9a9a9;
+        @include background;
         &:hover {
             border-color: #a9a9a9 !important;
             color: #a9a9a9;
@@ -54,13 +52,11 @@
 
 .rectangle{
     &__main{
-        background-color: #dddddd;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        @include background;
+        @include espacios;
         &__2{
             background-color: $blanco;
-            padding-top: 30px;
-            padding-bottom: 30px;
+            @include espacios;
         }
     }
 
@@ -86,13 +82,13 @@
         color: $negro;
         padding-left: 30px;
         padding-top: 80px;
-        font-size: 38px;
+        font-size: map-get($map: $titulos, $key: principal);
         &__2{
             font-family: $subtitulo-principal;
             color: $negro;
             padding-left: 80px;
             padding-top: 80px;
-            font-size: 38px;
+            font-size: map-get($map: $titulos, $key: principal);
         }
     }
     &__principal{
@@ -106,19 +102,19 @@
             text-align: center;
             padding-bottom: 60px;
             padding-top: 60px;
-            font-size: 38px;
+            font-size: map-get($map: $titulos, $key: principal);
         }
         &__2{
             font-family: $subtitulo-principal;;
             color: $negro;
-            font-size: 38px;
+            font-size: map-get($map: $titulos, $key: principal);
             text-align: center;
             padding-top: 80px;
         }
         &__h3{
             font-family: $subtitulo-principal;
             color: $negro;
-            font-size: 38px;
+            font-size: map-get($map: $titulos, $key: principal);
             text-align: center;
             padding-top: 80px;
         
@@ -130,14 +126,14 @@
 
 .parrafo{
     &__main{
-        font-size: 18px;
+        font-size: map-get($map: $titulos, $key: secundario);
         padding-bottom: 30px;
         text-align: justify;
         padding-left: 30px;
         padding-right: 80px;
         color: $negro;
         &__2{
-            font-size: 18px;
+            font-size: map-get($map: $titulos, $key: secundario);
             padding-bottom: 30px;
             text-align: justify;
             padding-left: 80px;
@@ -146,7 +142,7 @@
         }
     }
     &__section{
-        font-size: 18px;
+        font-size: map-get($map: $titulos, $key: secundario);
         padding-bottom: 30px;
         text-align: center;
     }
@@ -165,11 +161,10 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px 2px #00000033;
     &__tittle{
-        font-size: 22px;
-        font-weight: 700;
+        @include peso(700, 22px)
     }
     &__text{
-        font-size: 14px;
+        font-size: map-get($map: $titulos, $key: terciario);
     }
 }
 

@@ -5,3 +5,19 @@ $subtitulo-principal: "Poppins", sans-serif;
 $blanco: #ffffff;
 $negro: #000000;
 $salmon: #fa8072;
+
+// Mapa
+
+$titulos:(
+    principal: 38px,
+    secundario: 18px,
+    terciario: 14px,
+);
+
+/*EACH*/
+
+@each $llave, $valor in $titulos{
+    .tittle__#{llave}{
+        font-size: $valor;
+    }
+}

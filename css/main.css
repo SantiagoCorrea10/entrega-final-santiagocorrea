@@ -1,3 +1,16 @@
+/*EACH*/
+.tittle__llave {
+  font-size: 38px;
+}
+
+.tittle__llave {
+  font-size: 18px;
+}
+
+.tittle__llave {
+  font-size: 14px;
+}
+
 /*MODIFICACIONS TOTALES*/
 * {
   margin: 0;
@@ -42,9 +55,9 @@ body {
 }
 .logo__header__icon {
   margin-left: auto;
-  padding-top: 20px;
   width: 80px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: 20px;
 }
 
@@ -63,8 +76,8 @@ body {
 }
 .s__subtitulo {
   color: #ffffff;
-  font-size: 20px;
   font-weight: 300;
+  font-size: 20px;
   padding-bottom: 30px;
 }
 .s__calltoaction {
@@ -78,7 +91,7 @@ body {
   color: #ffffff;
 }
 .s__btn2__color {
-  background-color: #a9a9a9;
+  background-color: rgba(255, 226, 226, 0.9098039216);
 }
 .s__btn2__color:hover {
   border-color: #a9a9a9 !important;
@@ -100,7 +113,7 @@ body {
 }
 
 .rectangle__main {
-  background-color: #dddddd;
+  background-color: rgba(255, 226, 226, 0.9098039216);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -200,8 +213,8 @@ body {
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
 }
 .card__tittle {
-  font-size: 22px;
   font-weight: 700;
+  font-size: 22px;
 }
 .card__text {
   font-size: 14px;
@@ -243,6 +256,7 @@ body {
   color: #ffffff;
   padding-left: 30px;
   padding-top: 80px;
+  font-weight: none;
   font-size: 38px;
 }
 
@@ -276,7 +290,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: rgba(255, 226, 226, 0.9098039216);
   align-items: center;
   padding-top: 40px;
 }

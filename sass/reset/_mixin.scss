@@ -1,0 +1,18 @@
+// MIXINS - sin parametros
+
+@mixin background{
+    background-color: #ffe2e2e8;
+}
+
+@mixin espacios{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+//MIXINS - con parametros
+
+@mixin peso ($w, $s) {
+    font-weight: $w;
+    font-size: $s;
+}
