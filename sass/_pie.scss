@@ -1,0 +1,60 @@
+//Footer
+
+/*footer*/
+
+.section{
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f0f0f0;
+        align-items: center;
+        padding-top: 40px;
+        &__productos{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: $salmon;
+            align-items: center;
+            padding-top: 40px;
+        }
+    }
+}
+
+
+.icon{
+    &__footer{
+        width: 25px;
+        &__2{
+            width: 40px;
+            margin: 0 10px;
+        }
+        &__3{
+            width: 150px;
+        }
+    }
+}
+
+
+.logo{
+    &__footer {
+        display: flex;
+        &__img {
+            width: 80px;
+            height: 80px;
+            background-size: cover;
+        }
+    }
+}
+
+
+.footer{
+    &__columna {
+        padding: 0 10px;
+        &__redes {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
