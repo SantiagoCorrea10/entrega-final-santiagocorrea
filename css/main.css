@@ -402,5 +402,10 @@ body {
     padding-right: 5px;
   }
 }
+@media (min-width: 768) and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
